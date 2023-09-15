@@ -22,7 +22,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Rood
 
   #### Je focus:
-  surface plane
+  Surface plane
  
 </details>
 
@@ -36,15 +36,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  [Melkweg](https://www.melkweg.nl/nl/)
+  https://www.melkweg.nl/nl/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Melkweg Home 
+  <img src="readme-images/sc melkweg small.png" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Melkweg Agenda  
+  <img src="readme-images/sc melkweg agenda small.png" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -94,11 +94,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1 Karlijn | student 2 Joost    | student 3    | student 4        |
-  | ---               | ---                | ---          | ---              |
-  | dit bespreken     | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog    | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...               | ...                | ...          | ...              |
+  | student 1      | student 2          | student 3    | student 4        |
+  | ---            | ---                | ---          | ---              |
+  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
+  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | ...            | ...                | ...          | ...              |
 
 
   ### Verslag van meeting

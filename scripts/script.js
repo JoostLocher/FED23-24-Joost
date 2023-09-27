@@ -35,6 +35,25 @@ function closeMenu () {
     navMenu.classList.remove("toonMenu");
 }
 
+/*programma*/
+
+var justAnnounncedButton = document.querySelector ("main section:nth-of-type(2) section:first-of-type > ul li:first-of-type");
+var nextUpButton = document.querySelector ("main section:nth-of-type(2) section:first-of-type > ul li");
+var justAnnounced = document.querySelector ("main section:nth-of-type(2) section:first-of-type ul:nth-of-type(2)");
+var nextUp = document.querySelector ("main section:nth-of-type(2) section:first-of-type ol");
+
+justAnnounncedButton.onclick = viewJust;
+nextUpButton.onclick = viewNext;
+
+function viewJust () {
+    justAnnounced.classList.add("");
+    nextUp.classList.remove("");
+}
+
+function viewNext () {
+    nextUp.classList.add("");
+    justAnnounced.classList.remove("");
+}
 
 /*scrol*/
 

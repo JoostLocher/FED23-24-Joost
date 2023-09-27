@@ -179,7 +179,7 @@ header nav:first-of-type{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	
+	z-index: 100;
 }
 
  header nav:first-of-type ul{
@@ -393,13 +393,49 @@ main section:nth-of-type(2) section:first-of-type ul:nth-of-type(2) time {
 	justify-self: end;
 	align-self: center;
 	font-size: 0.875em;
-	
-
 }
 
 /*next up*/
 /**************************************/
 
+main section:nth-of-type(2) section:first-of-type ol time {
+	display: flex;
+} 
+
+main section:nth-of-type(2) section:first-of-type ol a {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 0.5em 0 1em 0;
+	border-bottom: 0.063em solid var(--second-border-color);
+}
+
+main section:nth-of-type(2) section:first-of-type ol h4 {
+	font-size: 1em;
+	line-height: 1.2;
+}
+
+main section:nth-of-type(2) section:first-of-type ol a > p {
+	font-size: 0.875em;
+	line-height: 1.2;
+	text-transform: uppercase;
+	color: var(--gray-text-color);
+}
+
+main section:nth-of-type(2) section:first-of-type ol time {
+	display: grid;
+	grid-column: 2;
+	grid-row: 1;
+	justify-self: end;
+	align-self: center;
+	font-size: 0.875em;
+}
+
+main section:nth-of-type(2) section:first-of-type ol time p {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	font-family: "melkweg";
+}
 
 
 /*highlights*/
@@ -422,10 +458,12 @@ main section:nth-of-type(2) section:nth-of-type(2) a {
 	display: flex;
 	flex-direction: column;
 	text-decoration: none;
+	position: relative;
 }
 
-main section:nth-of-type(2) section:nth-of-type(2) a:hover {
+main section:nth-of-type(2) section:nth-of-type(2) a:hover img:nth-of-type(2){
 	transition: 1s ease;
+	display: block;
 }
 
 main section:nth-of-type(2) section:nth-of-type(2) time {
@@ -438,11 +476,12 @@ main section:nth-of-type(2) section:nth-of-type(2) img {
 	margin-bottom: 0.5em;
 }
 
-/* main section:nth-of-type(2) section:nth-of-type(2) li img:nth-of-type(2) {
+main section:nth-of-type(2) section:nth-of-type(2) li img:nth-of-type(2) {
 	position: absolute;
 	top: 0.75em;
 	right: 0.75em;
-} */
+	display: none;
+} 
 
 /*section 3*/
 /**************************************/

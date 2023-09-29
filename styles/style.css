@@ -282,7 +282,7 @@ header input {
 	padding: 1.75em 1.25em 3em 1.25em;
  }
 
-header nav.toonMenu {
+header nav:nth-of-type(2).toonMenu {
 	translate: 0% 0%;
   	transition:0.3s;
 }
@@ -347,6 +347,7 @@ main section:nth-of-type(2) section:first-of-type > ul:first-of-type {
 
 main section:nth-of-type(2) section:first-of-type > ul li h3 {
 	margin: 0;
+	cursor: pointer;
 }
 
 main section:nth-of-type(2) section:first-of-type > ul li h3:first-of-type {
@@ -395,8 +396,28 @@ main section:nth-of-type(2) section:first-of-type ul:nth-of-type(2) time {
 	font-size: 0.875em;
 }
 
+main section:nth-of-type(2) section:first-of-type ul:nth-of-type(2).show {
+	display: block;
+}
+
+main section:nth-of-type(2) section:first-of-type ul:nth-of-type(2).hide {
+	display: none;
+}
+
 /*next up*/
 /**************************************/
+
+main section:nth-of-type(2) section:first-of-type ol {
+	display: none;
+}
+
+main section:nth-of-type(2) section:first-of-type ol.show {
+	display: block;
+}
+
+main section:nth-of-type(2) section:first-of-type ol.hide {
+	display: none;
+}
 
 main section:nth-of-type(2) section:first-of-type ol time {
 	display: flex;

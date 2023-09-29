@@ -38,7 +38,7 @@ function closeMenu () {
 /*programma*/
 
 var justAnnounncedButton = document.querySelector ("main section:nth-of-type(2) section:first-of-type > ul li:first-of-type");
-var nextUpButton = document.querySelector ("main section:nth-of-type(2) section:first-of-type > ul li");
+var nextUpButton = document.querySelector ("main section:nth-of-type(2) section:first-of-type > ul li:last-of-type");
 var justAnnounced = document.querySelector ("main section:nth-of-type(2) section:first-of-type ul:nth-of-type(2)");
 var nextUp = document.querySelector ("main section:nth-of-type(2) section:first-of-type ol");
 
@@ -46,13 +46,17 @@ justAnnounncedButton.onclick = viewJust;
 nextUpButton.onclick = viewNext;
 
 function viewJust () {
-    justAnnounced.classList.add("");
-    nextUp.classList.remove("");
+    justAnnounced.classList.add("show");
+    justAnnounced.classList.remove("hide");
+    nextUp.classList.add("hide");
+    nextUp.classList.remove("show");
 }
 
 function viewNext () {
-    nextUp.classList.add("");
-    justAnnounced.classList.remove("");
+    nextUp.classList.add("show");
+    nextUp.classList.remove("hide");
+    justAnnounced.classList.add("hide");
+    justAnnounced.classList.remove("show");
 }
 
 /*scrol*/

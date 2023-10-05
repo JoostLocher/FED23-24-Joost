@@ -3,29 +3,34 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="author" content="jouw naam">
+	<meta name="author" content="joost locher">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Melkweg</title>
+	<title>Melkweg Amsterdam</title>
 
+	<link href="styles/algemeen.css" rel="stylesheet">
 	<link href="styles/style.css" rel="stylesheet">
-	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+	<link rel="icon" type="image/svg+xml" href="images/apple-touch-icon.png">
 </head>
 
 <body>
 	<header>
 		<h1>melkweg</h1>
 		<p>
-			former milk factory, now cultural venue<br>
-			<a href="#">concerts</a>
-			<a href="#">club</a>
-			<a href="#">film</a>
-			<a href="#">expo</a>
-			&
-			<a href="#">young creatives</a>
+			<span lang="en">
+				milk factory, now cultural venue<br>
+				<a href="#">concerts</a>
+				<a href="#">club</a>
+				<a href="#">film</a>
+				<a href="#">expo</a>
+				&
+				<a href="#">young creatives</a>
+			</span>
 		</p>
 		<nav>
-			<a href="index.html"><h2>melkweg</h2></a>
+			<a href="index.html">
+				<h2>melkweg</h2>
+			</a>
 			<ul>
 				<li>
 					<a href="agenda.html">Agenda</a>
@@ -34,28 +39,30 @@
 					<a href="#">Bezoekerinfo</a>
 				</li>
 				<li>
-					<a href="#"><img src="./images/search-wit.png"></a>
+					<a href="#"><img src="./images/search-wit.png" alt="open zoeken"></a>
 				</li>
 				<li>
-					<a href="#"><img src="./images/menu-wit.png"></a>
+					<a href="#"><img src="./images/menu-wit.png" alt="open menu"></a>
 				</li>
 			</ul>
 		</nav>
 		<nav>
-			<h2>melkweg</h2>
-			<a href="#"><img src="./images/sluit-wit.png" alt=""></a>
+			<a href="index.html">
+				<h2>melkweg</h2>
+			</a>
+			<a href="#"><img src="./images/sluit-wit.png" alt="sluit menu"></a>
 			<ul>
-				<li>Home</li>
-				<li>Agenda</li>
-				<li>Bezoekersinfo</li>
-				<li>Nieuws</li>
+				<li><a href="#">Home</a></li>
+				<li><a href="agenda.html">Agenda</a></li>
+				<li><a href="#">Bezoekerinfo</a></li>
+				<li><a href="#">Nieuws</a></li>
 			</ul>
 			<ul>
-				<li>Vactures</li>
-				<li>Eten & drinken</li>
-				<li>Over ons</li>
-				<li>Word jaarlid</li>
-				<li>Merchendise</li>
+				<li><a href="#">Vactures</a></li>
+				<li><a href="#">Eten & drinken</a></li>
+				<li><a href="#">Over ons</a></li>
+				<li><a href="#">Word jaarlid</a></li>
+				<li><a href="#"><span lang="en">Merchandise</span></a></li>
 			</ul>
 			<ul>
 				<li><a href="#"><img src="./images/insta.png" alt="insta"></a></li>
@@ -67,20 +74,24 @@
 				<li><a href="#"><img src="./images/soundcloud.png" alt="soundcloud"></a></li>
 			</ul>
 			<ul>
-				<li>NL</li>
-				<li>EN</li>
+				<li><a href="#">NL</a></li>
+				<li><a href="#">EN</a></li>
 			</ul>
 		</nav>
 		<form>
-			<label>melkweg</label>
+			<label>zoeken</label>
 			<input type="search" placeholder="Zoek naar artiest, evenement of genre">
-			<a href="#"><img src="./images/sluit-wit.png" alt=""></a>
+			<a href="#"><img src="./images/sluit-wit.png" alt="sluit zoeken"></a>
+			<a href="index.html">
+				<h2>melkweg</h2>
+			</a>
 		</form>
 	</header>
 
 	<main>
 		<section>
-			<p>teskt</p>
+			<h2>images</h2>
+			<!-- geen tijd meer om deze section te maken... :( -->
 		</section>
 
 
@@ -90,101 +101,138 @@
 			<section>
 				<ul>
 					<li>
-						<h3>just announced</h3>
+						<a href="#">
+							<h3><span lang="en">Just announced</span></h3>
+						</a>
 					</li>
 					<li>
-						<h3>next up</h3>
+						<a href="#">
+							<h3><span lang="en">Next up</span></h3>
+						</a>
 					</li>
 				</ul>
 
 				<ul>
 					<li>
-						<a>
+						<a href="#">
 							<h4>dylan</h4>
 							<p>concert</p>
-							<time datetime="2023-09-14T18:00:00.000Z">do 14 sep</time>
+							<time datetime="2023-09-14T18:00Z">do 14 sep</time>
 						</a>
 					</li>
 					<li>
-						<a>
+						<a href="#">
 							<h4>matt maltese</h4>
 							<p>concert</p>
-							<time datetime="2024-02-27T18:00:00.000Z">di 27 feb</time>
+							<time datetime="2024-02-27T18:00Z">di 27 feb</time>
 						</a>
 					</li>
 					<li>
-						<a>
-							<h4>giant rocks</h4>
+						<a href="#">
+							<h4><span lang="en">Giant rocks</span></h4>
 							<p>concert</p>
-							<time datetime="2024-01-14T18:00:00.000Z">zo 14 jan</time>
+							<time datetime="2024-01-14T18:00Z">zo 14 jan</time>
 						</a>
 					</li>
 					<li>
-						<a>
+						<a href="#">
 							<h4>apashe</h4>
 							<p>concert</p>
-							<time datetime="2024-02-03T19:00:00.000Z">za 03 feb</time>
+							<time datetime="2024-02-03T19:00Z">za 03 feb</time>
 						</a>
 					</li>
 					<li>
-						<a>
-							<h4>mad caddies</h4>
+						<a href="#">
+							<h4><span lang="en">mad caddies</span></h4>
 							<p>concert</p>
-							<time datetime="2023-11-17T18:00:00.000Z">vr 17 nov</time>
+							<time datetime="2023-11-17T18:00Z">vr 17 nov</time>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<h4><span lang="en">mad caddies</span></h4>
+							<p>concert</p>
+							<time datetime="2023-11-17T18:00Z">vr 17 nov</time>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<h4><span lang="en">mad caddies</span></h4>
+							<p>concert</p>
+							<time datetime="2023-11-17T18:00Z">vr 17 nov</time>
 						</a>
 					</li>
 				</ul>
 
 				<ol>
 					<li>
-						<a>
-							<h4>arty party photography graduates 2023</h4>
+						<a href="#">
+							<h4><span lang="en">arty party photography graduates 2023</span></h4>
 							<p>expositie</p>
-							<time datetime="2023-09-08T11:00:00.000Z">
-								<p>vr 08 sep <span> - zo 08 okt</span></p>
-								<p>11:00</p>
+							<time datetime="2023-09-08T11:00Z">
+								<span>vr 08 sep</span>
+								<span>- zo 08 okt</span>
+								<span>11:00</span>
 							</time>
 						</a>
 					</li>
 					<li>
-						<a>
-							<ul>
-							<h4>holly johnson</h4>
+						<a href="#">
+							<h4><span lang="en">holly johnson</span></h4>
 							<p>concert</p>
-							</ul>
-							<time datetime="2023-09-27T19:00:00.000Z">
-								<p>wo 27 sep</p>
-								<p>19:00</p>
+							<time datetime="2023-09-27T19:00Z">
+								<span>wo 27 sep</span>
+								<span>19:00</span>
 							</time>
 						</a>
 					</li>
 					<li>
-						<a>
-							<h4>holly johnson</h4>
+						<a href="#">
+							<h4><span lang="en">holly johnson</span></h4>
 							<p>concert</p>
-							<time datetime="2023-09-27T19:00:00.000Z">
-								<p>wo 27 sep</p>
-								<p>19:00</p>
+							<time datetime="2023-09-27T19:00Z">
+								<span>wo 27 sep</span>
+								<span>19:00</span>
 							</time>
 						</a>
 					</li>
 					<li>
-						<a>
-							<h4>holly johnson</h4>
+						<a href="#">
+							<h4><span lang="en">holly johnson</span></h4>
 							<p>concert</p>
-							<time datetime="2023-09-27T19:00:00.000Z">
-								<p>wo 27 sep</p>
-								<p>19:00</p>
+							<time datetime="2023-09-27T19:00Z">
+								<span>wo 27 sep</span>
+								<span>19:00</span>
 							</time>
 						</a>
 					</li>
 					<li>
-						<a>
-							<h4>holly johnson</h4>
+						<a href="#">
+							<h4><span lang="en">holly johnson</span></h4>
 							<p>concert</p>
-							<time datetime="2023-09-27T19:00:00.000Z">
-								<p>wo 27 sep</p>
-								<p>19:00</p>
+							<time datetime="2023-09-27T19:00Z">
+								<span>wo 27 sep</span>
+								<span>19:00</span>
+							</time>
+						</a>
+					</li>.
+					<li>
+						<a href="#">
+							<h4><span lang="en">holly johnson</span></h4>
+							<p>concert</p>
+							<time datetime="2023-09-27T19:00Z">
+								<span>wo 27 sep</span>
+								<span>19:00</span>
+							</time>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<h4><span lang="en">holly johnson</span></h4>
+							<p>concert</p>
+							<time datetime="2023-09-27T19:00Z">
+								<span>wo 27 sep</span>
+								<span>19:00</span>
 							</time>
 						</a>
 					</li>
@@ -192,29 +240,32 @@
 			</section>
 
 			<section>
-				<h3>highlights</h3>
+				<h3><span lang="en">highlights</span></h3>
 				<ul>
 					<li>
 						<a href="#">
 							<h4>pyxls</h4>
-							<time datetime="2023-09-14T18:00:00.000Z">do 14 sep</time>
-							<img src="./images/PYXXLS.jpg" alt="pyxxls">
+							<time datetime="2023-09-14T18:00Z">do 14 sep</time>
+							<img src="./images/PYXXLS.jpg"
+								alt="de naam pyxls in het roze groot in het midden met een gestippelt textuur op een zwarte achtergrond.">
 							<img src="./images/3-arrows-wit.png">
 						</a>
 					</li>
 					<li>
 						<a href="#">
 							<h4>Apashe</h4>
-							<time datetime="2024-02-03T19:00:00.000Z">za 03 feb</time>
-							<img src="./images/Apashe-CMS.png" alt="pyxxls">
+							<time datetime="2024-02-03T19:00Z">za 03 feb</time>
+							<img src="./images/Apashe-CMS.png"
+								alt="de artiest Apashe staat gehurkt op een rots met wolken en bliksem op de achtergrond. hij draagt middeleeuws pantser op alleen zijn rechter been en linker arm. ">
 							<img src="./images/3-arrows-wit.png">
 						</a>
 					</li>
 					<li>
 						<a href="#">
 							<h4>pyxls</h4>
-							<time datetime="2023-09-14T18:00:00.000Z">do 14 sep</time>
-							<img src="./images/PYXXLS.jpg" alt="pyxxls">
+							<time datetime="2023-09-14T18:00Z">do 14 sep</time>
+							<img src="./images/PYXXLS.jpg"
+								alt="de naam pyxls in het roze groot in het midden met een gestippelt textuur op een zwarte achtergrond.">
 							<img src="./images/3-arrows-wit.png">
 						</a>
 					</li>
@@ -226,7 +277,7 @@
 		<section>
 			<a href="agenda.html" class="agenda">
 				<h2>agenda</h2>
-				<img src="./images/arrow-zwart.png">
+				<img src="./images/arrow-zwart.png" alt="knop naar de agenda pagina">
 			</a>
 		</section>
 
@@ -239,8 +290,9 @@
 				doen
 				we door middel van projecten, workshops, rondleidingen, masterclasses, trainingstrajecten en
 				evenementen. Of we bieden je een podium, zodat jij ons kunt betoveren met je talenten.</p>
-			<img src="./images/youngcreativesnew.jpg" alt="pyxxls">
-			<a href="#">Lees meer </a>
+			<img src="./images/youngcreativesnew.jpg"
+				alt="groep jongeren die zitten. ze kijken geintereseerd naar iets links buiten het beeld.">
+			<a href="#" aria-label="lees meer over de jonge creative van Melkweg">Lees meer </a>
 		</section>
 	</main>
 

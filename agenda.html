@@ -3,108 +3,178 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="author" content="jouw naam">
+	<meta name="author" content="joost locher">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>MELKWEG</title>
+	<title>Melkweg Amsterdam</title>
 
-	<link href="styles/style.css" rel="stylesheet">
-	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+	<link href="styles/algemeen.css" rel="stylesheet">
+	<link href="styles/agenda.css" rel="stylesheet">
+	<link rel="icon" type="image/svg+xml" href="images/apple-touch-icon.png">
 </head>
 
 <body>
-    <header>
-        <h1><a href="index.html">melkweg</a></h1>
+	<header>
 		<nav>
+			<a href="index.html">
+				<h1>melkweg</h1>
+			</a>
+			<a href="#"><img src="./images/sluit-wit.png" alt="sluit menu"></a>
 			<ul>
-				<li>
-					<a href="agenda.html">Agenda</a>
-				</li>
-				<li>
-					<a href="#">Bezoekerinfo</a>
-				</li>
-				<li>
-					<button>Search</button>
-				</li>
-				<li>
-					<button>Menu</button>
-				</li>
+				<li><a href="#">Home</a></li>
+				<li><a href="agenda.html">Agenda</a></li>
+				<li><a href="#">Bezoekerinfo</a></li>
+				<li><a href="#">Nieuws</a></li>
+			</ul>
+			<ul>
+				<li><a href="#">Vactures</a></li>
+				<li><a href="#">Eten & drinken</a></li>
+				<li><a href="#">Over ons</a></li>
+				<li><a href="#">Word jaarlid</a></li>
+				<li><a href="#"><span lang="en">Merchandise</span></a></li>
+			</ul>
+			<ul>
+				<li><a href="#"><img src="./images/insta.png" alt="insta"></a></li>
+				<li><a href="#"><img src="./images/tiktok.png" alt="tiktok"></a></li>
+				<li><a href="#"><img src="./images/facebook.png" alt="facebook"></a></li>
+				<li><a href="#"><img src="./images/x.png" alt="twitter"></a></li>
+				<li><a href="#"><img src="./images/spotify.png" alt="spotify"></a></li>
+				<li><a href="#"><img src="./images/youtube.png" alt="youtube"></a></li>
+				<li><a href="#"><img src="./images/soundcloud.png" alt="soundcloud"></a></li>
+			</ul>
+			<ul>
+				<li><a href="#">NL</a></li>
+				<li><a href="#">EN</a></li>
 			</ul>
 		</nav>
-		<nav>
-			<button>X</button>
-			<ul>
-				<li>Home</li>
-				<li>Agenda</li>
-				<li>Bezoekersinfo</li>
-				<li>Nieuws</li>
-			</ul>
-			<ul>
-				<li>Vactures</li>
-				<li>Eten & drinken</li>
-				<li>Over ons</li>
-				<li>Word jaarlid</li>
-				<li>Merchendise</li>
-			</ul>
-			<ul>
-				<li>Insta</li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-			</ul>
-			<ul>
-				<li>NL</li>
-				<li>EN</li>
-			</ul>
-		</nav>
-    </header>
+		<form>
+			<label>zoeken</label>
+			<input type="search" placeholder="Zoek naar artiest, evenement of genre">
+			<a href="#"><img src="./images/sluit-wit.png" alt="sluit zoeken"></a>
+			<a href="index.html">
+				<h2>melkweg</h2>
+			</a>
+		</form>
+	</header>
 
-    <main>
-        <section>
-            <ul>
-                <li>Alles</li>
-                <li>Concert</li>
-                <li>Club</li>
-                <li>Film</li>
-                <li>Expositie</li>
-                <li>Festival</li>
-            </ul>
-            <section>
-                <button></button>
-                <button></button>
-            </section>
-        </section>
+	<main>
+		<section>
+			<ul>
+				<li><a href="#">Alles</a></li>
+				<li><a href="#">Concert</a></li>
+				<li><a href="#">Club</a></li>
+				<li><a href="#">Film</a></li>
+				<li><a href="#">Expositie</a></li>
+				<li><a href="#">Festival</a></li>
+			</ul>
+			<section>
+				<a href="#"><img src="./images/genres.png" alt="genres" aria-hidden="true">Genres</a>
+				<a href="#"><img src="./images/datum-1.png" alt="calender" aria-hidden="true">Datum</a>
+				<form>
+					<label>
+						<input type="checkbox" name="just-announced">
+						Just announced
+					</label>
+					<label>
+						<input type="checkbox" name="gratis-voor-jaarleden">
+						Gratis voor jaarleden
+					</label>
+				</form>
+			</section>
+			<section>
+				<h2>Je bekijkt nu:</h2>
+				<a href="#">Just announced<img src="./images/sluit-zwart.png" alt="sluit filter just announced"></a>
+				<a href="#">Gratis voor jaarleden<img src="./images/sluit-zwart.png" alt="sluit filter gratis voor jaarleden"></a>
+			</section>
+		</section>
 
-        <section>
-            <ol>
-                <li>
-                    <h2>
-                        <time datetime="2023-09-14T18:00:00.000Z"> di 12 sep</time>
-                    </h2>
-                    <ol>
-                        <li>
-                            <a>
-                                <article>
-                                    <h3>pyxls</h3>
-                                    <p>club</p>
-                                    <p>The Hyperpop Experience</p>
-                                    <p>Hyperpop · Electronic  · Queer party</p>
-                                </article>
-                                <img src="">
-                            </a>
-                        </li>
-                        <li></li>
-                        <li></li>
-                    </ol>
-                </li>
-            </ol>
-        </section>
-    </main>
+		<ol>
+			<li>
+				<h2>
+					<time datetime="2023-09-08/2023-10-08"> vr 08 sep<br>- zo 08 okt</time>
+				</h2>
+				<ol>
+					<li>
+						<a href="#" aria-label="Arty party photography graduates 2023 - Expositie">
+							<article>
+								<h3>arty party photography graduates 2023</h3>
+								<p>expositie</p>
+							</article>
+							<img src="./images/Arty-Party.png" alt="licht grijze achtergrond met pastel kleurige vormen en 3 emoji's (oog, calender, ontploffing)">
+						</a>
+					</li>
+				</ol>
+			</li>
+			<li>
+				<h2>
+					<time datetime="2023-09-12"> di 12 sep</time>
+				</h2>
+				<ol>
+					<li>
+						<a href="#" aria-label="PYXLS - Club - The Hyperpop Experience - Hyperpop, Electronic, Queer party">
+							<article>
+								<h3>pyxls</h3>
+								<p>club</p>
+								<p>The Hyperpop Experience Hyperpop · Electronic · Queer party</p>
+							</article>
+							<img src="./images/PYXXLS.jpg" alt="de naam pyxls in het roze groot in het midden met een gestippelt textuur op een zwarte achtergrond.">
+						</a>
+					</li>
+					<li>
+						<a href="#" aria-label="Grandson - Concert - I love you, i'm trying - Alternative, Rock, Trap - Uitverkocht">
+							<article>
+								<h3>grandson</h3>
+								<p>concert</p>
+								<p>I LOVE YOU, I'M TRYING Alternative · Rock · Trap</p>
+								<span>uitverkocht</span>
+							</article>
+							<img src="./images/Grandson-CMS.jpg" alt=" artiest Grandson staand tussen hoog gras in een veld met bergen op de achtergrond">
+						</a>
+					</li>
+				</ol>
+			</li>
+			<li>
+				<h2>
+					<time datetime="2023-09-13"> wo 13 sep</time>
+				</h2>
+				<ol>
+					<li>
+						<a href="#" aria-label="Kamsi (2018) - Film - Hollywood Travel Film Festival Thriller, Nigeria">
+							<article>
+								<h3>kamsi (2018)</h3>
+								<p>film</p>
+								<p>Hollywood Travel Film Festival Thriller · Nigeria</p>
+							</article>
+							<img src="./images/Kamsi02.jpeg" alt="dokter met zijn doktersjas aan aan het bellen en een verpleegster op de achtergrond iemand aan het helpen die in een bed ligt">
+						</a>
+					</li>
+					<li>
+						<a href="#" aria-label="Blü eyes - Concert - Bedroompop, Pop - Gratis voor jaarleden">
+							<article>
+								<h3>blü eyes</h3>
+								<p>concert</p>
+								<p>Bedroompop · Pop</p>
+								<span>gratis voor jaarleden</span>
+							</article>
+							<img src="./images/blue-eyes.png" alt="artiest blue eyes groot in het midden met een licht blauw sweater aan met haar handen tegen haar hoofd aan">
+						</a>
+					</li>
+					<li>
+						<a href="#" aria-label="Ragz originale - Concert - Hiphop, R&B">
+							<article>
+								<h3>ragz originale</h3>
+								<p>concert</p>
+								<p>Hiphop · R&B</p>
+							</article>
+							<img src="./images/ragz.jpg" alt="artiest ragz zittend in een rode auto met de deur open en kijkend naar de camera">
+						</a>
+					</li>
+				</ol>
+			</li>
+		</ol>
+	</main>
 
-    <script defer src="scripts/script.js"></script>
+	<script defer src="scripts/script.js"></script>
 </body>
 
 </html>

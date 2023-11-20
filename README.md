@@ -52,11 +52,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Toegankelijkheidstest 1/2 (week 1)
 
-<details>
+<details open>
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  - lang staat op nl maar daardoor worden engelse worden die ze veel gebruiken in het nederlands voorgelezen.
+  - lees meer link bevat geen alt die uitlegt wat er meer te lezen valt.
+  - alle img bevatten een lege alt terwijl het best van toepassing kan zijn en niet alleen decoratief zijn.
+  goede punten:
+  - de website heeft een skip button heeft naar de content aan het begin van de website.
+  - bewegende media hebben pauzeer knoppen.
+  - er zijn goede focus states.
+
 
 </details>
 
@@ -64,7 +72,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Breakdownschets (week 1)
 
-<details>
+<details open>
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
@@ -127,7 +135,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Voortgang 2 (week 3)
 
-<details open>
+<details>
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
@@ -161,11 +169,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Toegankelijkheidstest 2/2 (week 4)
 
-<details>
+<details open>
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  - sommige img missen een alt.
+  - engelse woorden worden nog uitgespeld in het nederlands.
+  - geen skip link naar content aanweezig
+  - sommige delen hebben nog geen duidelijke focus state
+
+  Verbeterd:
+  - Engelse woorden hebben nu span met lang = en
+  - Lees meer heeft aria label
+  - Alle img en icons hebben een alt of aria label
 
 </details>
 
@@ -247,8 +264,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details open>
   <summary>bronnen</summary>
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. https://www.w3schools.com/
+  2. https://chat.openai.com/
+  3. https://developer.mozilla.org/en-US/
+  4. icons | https://svgexport.io/
 
 </details>

@@ -32,7 +32,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Je website
 
-<details open>
+<details>
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
@@ -94,17 +94,22 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   student 1 Karlijn :
   - wanneer afbeelding in html en wanneer css?
+
+  student 2 Annika :
+  - hoe krijg ik mijn menu button met javascript werkend?
+
+  student 3 Tygo :
+  - werkt een aside laten uit en inschuiven hetzelfde als de menu opdracht?
+  - hoe maak ik een dropdown menu die alle onderstaande content verder omlaag duwt?
+  - hoe zorg ik ervoor dat ( checkbox ) filters zich daadwerkelijk toepassen op de artikelen die de website mij zal tonen?
+  - hoe zorg ik dat het stuk tekst dat zegt hoeveel resultaten er gevonden zijn zich aanpast afhankelijk van het aantal resultaten?
+  - hoe creeër ik "laagjes" waarmee elementen elkaar overlappen door middel van css?
+  
+  student 4 Joost :
   - mag een <.h2.> in een <.a.>?
   - wanneer svg en wanneer een button?
   - mag een <.ul.> in een <.ul.>?
   - wat zijn handige volgordes van <.img.> <.p.> <.h2.> enz.?
-
-  student 2 Annika :
-
-  student 3 Tygo :
-
-  student 4 Joost :
-
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
@@ -202,23 +207,35 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Eindgesprek (week 5)
 
-<details>
+<details open>
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  homepage
+  <img src="readme-images/sc-eindpagina.png" width="375px" alt="uitomst opdracht 1">
 
+  agenda
+  <img src="readme-images/sc-eindpagina-agenda.png" width="375px" alt="uitomst opdracht 1">
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  
+  - Het responsive maken van de programma sectie waarbij ze naast elkaar komen te staan op groter scherm.
+  <img src="readme-images/sc-responsive-big.png" width="375px" alt="top">
+  <img src="readme-images/sc melkweg small.png" width="375px" alt="top">
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  - Het wisselen van lijst die zichtbaar is met javascript was ook goed gelukt.
+  <img src="readme-images/sc-ja.png" width="375px" alt="top">
+  <img src="readme-images/sc-nu.png" width="375px" alt="top">
 
+  - Het gebruiken van span om taal voor een bepaald deel te veranderen.
+  <img src="readme-images/sc-lang.png" width="375px" alt="top">
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  - Het is mij niet gelukt om de hele breedte van de pagina zwart te krijgen wanneer er overheen wordt gehoverd.
+  <img src="readme-images/sc-laatste-2.png" width="375px" alt="bummer">
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  - Ook had ik geen tijd meer voor het maken van de volgende sectie op de afbeelding hieronder. Maar had dit nog wel graag willen doen.
+  <img src="readme-images/sc-laatste.png" width="375px" alt="bummer">
 </details>
 
 
@@ -228,11 +245,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Bronnenlijst
 
 <details open>
-  <summary>continu bijhouden terwijl je werkt</summary>
-
-  Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg). 
-  Nb. ChatGpT en andere AI horen er ook bij.
-  Nb. Vermeld de bronnen ook in je code.
+  <summary>bronnen</summary>
 
   1. bron 1
   2. bron 2
